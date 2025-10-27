@@ -18,4 +18,15 @@ It also stores the extracted keywords and their frequencies in an SQLite databas
 
 
 
-##
+## Yake
+YAKE is a lightweight unsupervised automatic keyword extraction method that uses text statistical features to select the most important keywords from a document. 
+It requires no training, external corpus, or dictionaries, and works across multiple languages and domains regardless of text size.
+
+
+For each candidate word, YAKE calculates 5 key features:
+  .Casing — is it capitalized unusually often?
+  .Word position — early or late in text (earlier = more important).
+  .Word frequency — rare words get higher importance.
+  .Context diversity — if a word appears in many contexts, it’s less specific.
+  .Sentence relatedness — words occurring close together might form a phrase.
+Each candidate gets a combined score based on the above features. Lower score → more relevant keyword.
