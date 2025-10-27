@@ -19,12 +19,12 @@ It also stores the extracted keywords and their frequencies in an SQLite databas
 ## Components of the project
 
 ```
-Main file               -> Keyword_identification.ipynb
-README.md               -> What the project does.
-keywords.db             -> DataBase created for without yake.
-YAKE.db                 -> DataBase created with yake.
-Testing.ipynb           -> Initial code testing.
-testing_tan.ipynb       -> Testing with the YAKE.
+Main file               ->       Keyword_identification.ipynb
+README.md               ->       What the project does.
+keywords.db             ->       DataBase created for without yake.
+YAKE.db                 ->       DataBase created with yake.
+Testing.ipynb           ->       Initial code testing.
+testing_tan.ipynb       ->       Testing with the YAKE.
 ```
 
 
