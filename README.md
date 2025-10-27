@@ -24,9 +24,17 @@ It requires no training, external corpus, or dictionaries, and works across mult
 
 
 For each candidate word, YAKE calculates 5 key features:
+
   .Casing — is it capitalized unusually often?
+  
   .Word position — early or late in text (earlier = more important).
+  
   .Word frequency — rare words get higher importance.
+  
   .Context diversity — if a word appears in many contexts, it’s less specific.
+  
   .Sentence relatedness — words occurring close together might form a phrase.
+
+  
+  
 Each candidate gets a combined score based on the above features. Lower score → more relevant keyword.
