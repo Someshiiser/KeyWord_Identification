@@ -17,12 +17,16 @@ It uses web scraping, text cleaning, frequency analysis, and YAKE (Yet Another K
 It also stores the extracted keywords and their frequencies in an SQLite database, allowing comparisons across multiple websites with plots and word clouds.
 
 ## Components of the project
-Main file         -> Keyword_identification.ipynb
-README.md         -> What theproject does.
-keywords.db       -> DataBase created for without yake.
-YAKE.db           -> DataBase created for with yake.
-Testing.ipynb     -> Initial code testing.
-testing_tan.ipynb -> Testing with the YAKE.
+
+```
+Main file               -> Keyword_identification.ipynb
+README.md               -> What the project does.
+keywords.db             -> DataBase created for without yake.
+YAKE.db                 -> DataBase created with yake.
+Testing.ipynb           -> Initial code testing.
+testing_tan.ipynb       -> Testing with the YAKE.
+```
+
 
 
 ## Code Explanation
